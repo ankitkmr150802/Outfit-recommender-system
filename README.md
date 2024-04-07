@@ -1,6 +1,6 @@
 # TrendMatch - Outfit Recommendations
 
-TrendMatch is a web application that provides outfit ideas for different occasions. This project includes pages for both men's and women's sections, each showcasing random outfit recommendations based on specific categories.
+TrendMatch is a web application that provides outfit ideas for different occasions. This project includes pages for all men's, women's and kid's sections, each showcasing random outfit recommendations based on specific categories.
 
 ## Features
 
