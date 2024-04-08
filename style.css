@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+/* Top Section */
+
+.top{
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap; 
+  
+}
+
+#text{
+    position: absolute;
+    animation: typing 15s linear forwards infinite;
+
+}
+
+@keyframes typing {
+    0% {
+        left:-50%;
+    }
+    100% {
+       left:100%;
+    }
+}
+
+/* Navbar Section */
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #003366;
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo{
+    
+    height: 3.5em;
+    width: 3.5em;
+    padding-left: 1em;
+    
+}
+
+.name{
+    padding-left: 35%;
+    padding-right: 20%;
+    color: aliceblue;
+}
+.name:hover{
+    text-shadow: 0 0 1em #00ffff,0 0 2em #00ffff, 0 0 3em #00ffff;
+}
+
+
+.info{
+    
+    padding-right: 3em;
+    color: aliceblue;
+    
+}
+
+
+
+
+/* Main content Section */
+
+.content{
+    height: 110vh;
+    width: 100%;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+.contentbox{
+    height: 60%;
+    width: 30%;
+    margin: 5%;
+    border-radius: 1em;
+    /* border: 1px solid black; */
+    background-color: white;
+    color: black;
+    padding-top: 1em;
+    text-align: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+    
+}
+
+.contentbox:hover {
+    box-shadow: 0 0 0.1em #00ffff,0 0 10px #00ffff, 0 0 10px #00ffff ;
+    /* zoom: 1.05; */
+}
+
+
+
+
+.box-img{
+    height: 85%;
+    margin:1em;
+    margin-bottom: 2em;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* footer section */
+
+.foot {
+    height: 15vh;
+    width: 100%;
+    background-color: #123456;
+    color: aliceblue;
+    text-align: center;
+    position: relative; /* Add this line */
+    display: flex; /* Add this line */
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width:400px){
+    .content{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+

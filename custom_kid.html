@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalize Your Style</title>
+    <link rel="stylesheet" href="custom_kid.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- NavBar of the website -->
+
+        <div class="navbar">
+
+            <a href="index.html"><img id="logo" src="All docs/project_logo.png" alt="project_logo"></a>
+            <h1 draggable="true" class="name">TrendMatch</h1>
+            
+            
+                <a  class="info" href="#">About</a>
+                <a  class="info" href="#">Contact Us</a>
+
+                <!-- login section not working right now -->
+                <a class="info"  href="#">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- preference -->
+
+        <div class="content">
+
+            <div class="contentbox">
+                
+                <h3 id="heading">Personalize Your Style</h3>
+                
+                <p id="suggestion">Please fill out the form accurately to receive personalized outfit recommendations tailored to your preferences. </p>
+                
+                <form action="#" id="form">
+                    <div class="form-group">
+                            <input type="text" placeholder="First Name">
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                            <input type="text" placeholder="Last Name">
+                    </div>
+
+                    <div class="form-group">
+                            <input type="number" placeholder=" Age">
+                    </div>
+                    
+                    
+                    <br>
+
+                    <div class="select">
+                        <select name="occassion" id="occassion">
+                            <option value="" disabled selected>Select the occasion</option>
+                            <option value="sport" class="opt">Sport</option>
+                            <option value="party" class="opt">Party</option>
+                            <option value="casual" class = "casual">Casual</option>
+                        </select>
+                    </div>
+               
+                </form>
+                <span class="Button">
+                    <a href="#" id="submitButton">Get recommendations</a>
+                </span>      
+            </div>
+            
+        </div>
+
+    </main>
+
+    <!-- Loader Container -->
+    <div class="loader-container" id="loaderContainer">
+        <div class="loader"></div>
+    </div>
+
+    <script src="kids.js"></script>
+
+    <footer>
+        <div class="foot">
+            <div class="bottom" id="copyright">
+                © 2024 TrendMatch Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
